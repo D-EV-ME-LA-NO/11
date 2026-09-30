@@ -1,0 +1,11 @@
+name = "viduki-resolver-api"
+main = "src/worker.js"
+compatibility_date = "2026-09-30"
+
+[vars]
+# ضع API_TOKEN الحقيقي عبر wrangler secret put API_TOKEN
+
+[[rules]]
+globs = ["**/*.wasm"]
+type = "CompiledWasm"
+fallthrough = false
