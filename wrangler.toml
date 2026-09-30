@@ -1,4 +1,4 @@
-name = "viduki-resolver-api"
+name = "11"
 main = "src/worker.js"
 compatibility_date = "2026-09-30"
 
